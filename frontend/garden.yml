@@ -183,6 +183,8 @@ services:
         port: http
       - path: /call-backend
         port: http
+      - path: /call-keycloak
+        port: http
     dependencies:
       - backend
   #-# Valid RFC1035/RFC1123 (DNS) label (may contain lowercase letters, numbers and dashes, must start with a letter,
