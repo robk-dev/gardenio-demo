@@ -1,0 +1,6 @@
+kind: Module
+type: helm
+name: keycloak
+repo: https://codecentric.github.io/helm-charts
+chart: keycloak
+version: 9.6.1
