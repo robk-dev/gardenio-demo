@@ -13,5 +13,15 @@ describe('GET /call-backend', () => {
         done()
       })
   })
+
+  it('should respond with a message from the backend service', (done) => {
+    agent
+      .get("/call-keycloak")
+      .expect(200)
+      .end((err) => {
+        if (err) return done(err)
+        done()
+      })
+  })
 })
 

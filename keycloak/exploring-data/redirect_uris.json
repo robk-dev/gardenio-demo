@@ -1,0 +1,26 @@
+[
+  {
+    "client_id": "41fa8d5f-ac71-45c5-8ef6-17c4882ece42",
+    "value": "/realms/master/account/*"
+  },
+  {
+    "client_id": "e28ec462-2820-413f-a07a-0f504d97dab3",
+    "value": "/realms/master/account/*"
+  },
+  {
+    "client_id": "8f91fa4e-da58-4567-b954-ffb5bc5896f6",
+    "value": "/admin/master/console/*"
+  },
+  {
+    "client_id": "a32e331b-a6eb-42c3-af1d-1347ff8619c4",
+    "value": "/realms/rypock/account/*"
+  },
+  {
+    "client_id": "b94f831e-2161-4c58-bf49-dabe2ed9a3fb",
+    "value": "/realms/rypock/account/*"
+  },
+  {
+    "client_id": "9b37eb96-c4a9-459a-b54f-968e0659355e",
+    "value": "/admin/rypock/console/*"
+  }
+]
