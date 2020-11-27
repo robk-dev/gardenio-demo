@@ -179,7 +179,9 @@ services:
       - name: http
         containerPort: 8080
     ingresses:
-      - path: /hello-frontend
+      - path: /admin
+        port: http
+      - path: /hello
         port: http
       - path: /call-backend
         port: http
